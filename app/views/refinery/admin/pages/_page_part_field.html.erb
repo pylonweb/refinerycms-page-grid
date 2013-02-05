@@ -2,7 +2,7 @@
   <%= hidden_field_tag "page[parts_attributes][#{part_index}][title]", part.title if new_part %>
   <%= text_area_tag "page[parts_attributes][#{part_index}][body]", part.body, :rows => 20, :class => 'wymeditor widest' %>
   <div class="wym_area_bottom">
-  	<span>Grid Position: <%= t("grid_position", :scope => 'refinery.admin.page_grid') %></span>
+  	<span><%= t("grid_position", :scope => 'refinery.admin.page_grid') %></span>
   	<%= label_tag "page[parts_attributes][#{part_index}][margin]", t("margin", :scope => 'refinery.admin.page_grid') %>
   	<%= select_tag "page[parts_attributes][#{part_index}][margin]", options_for_select(Refinery::PageGrid.margin_options, part.margin) %>
   	<%= label_tag "page[parts_attributes][#{part_index}][width]", t("width", :scope => 'refinery.admin.page_grid') %>
