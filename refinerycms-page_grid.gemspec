@@ -8,6 +8,7 @@ Gem::Specification.new do |s|
   s.date              = '2013-02-05'
   s.summary           = 'Page Grid extension for Refinery CMS'
   s.require_paths     = %w(lib)
+  s.authors           = ['Johan Frølich']
   s.files             = Dir["{app,config,db,lib}/**/*"] + ["readme.md"]
 
   # Runtime dependencies
