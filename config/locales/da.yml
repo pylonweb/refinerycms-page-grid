@@ -6,8 +6,8 @@ da:
     admin:
       page_grid:
         grid_position: Gitterposition
-        margin: Margen:
-        width: Bredde:
+        margin: "Margen:"
+        width: "Bredde:"
   activerecord:
     attributes:
       'refinery/page_grid/page_grid':
