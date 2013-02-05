@@ -1,7 +1,7 @@
 require 'refinerycms-core'
 
 module Refinery
-  autoload :PageGridGenerator, 'generators/refinery/page_grid_generator'
+  autoload :PageGridGenerator, 'generators/refinery/page_grid/page_grid_generator'
 
   module PageGrid
     require 'refinery/page_grid/engine'
