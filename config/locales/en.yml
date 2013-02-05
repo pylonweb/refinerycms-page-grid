@@ -1,0 +1,10 @@
+en:
+  refinery:
+    plugins:
+      page_grid:
+        title: Page Grids
+  activerecord:
+    attributes:
+      'refinery/page_grids/page_grid':
+        margin: Margin
+        width: Width

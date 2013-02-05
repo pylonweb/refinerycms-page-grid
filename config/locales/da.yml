@@ -1,0 +1,10 @@
+da:
+  refinery:
+    plugins:
+      page_grid:
+        title: Side Net
+  activerecord:
+    attributes:
+      'refinery/page_grids/page_grid':
+        margin: Marge
+        width: Bredde
