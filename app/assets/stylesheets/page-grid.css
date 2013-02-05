@@ -1,0 +1,26 @@
+.page_part .wym_skin_refinery .wym_area_bottom {
+	display: block !important;
+	margin-left: 2px;
+}
+
+.page_part .wym_skin_refinery .wym_area_bottom select {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 7px;
+}
+
+.page_part .wym_skin_refinery .wym_area_bottom label {
+	float: left;
+	margin-top: 3px;
+	margin-right: 5px;
+	margin-bottom: 7px;
+	font-weight: normal;
+}
+
+.page_part .wym_skin_refinery .wym_area_bottom span {
+	float: left;
+	margin-top: 3px;
+	margin-right: 20px;
+	margin-bottom: 7px;
+	font-weight: bold;
+}

@@ -1,0 +1,8 @@
+# Dummy app
+/spec/dummy
+
+# OS X store
+.DS_Store
+
+# RVM
+.rvmrc

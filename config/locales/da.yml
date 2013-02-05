@@ -5,6 +5,6 @@ da:
         title: Side Net
   activerecord:
     attributes:
-      'refinery/page_grids/page_grid':
+      'refinery/page_grid/page_grid':
         margin: Marge
         width: Bredde

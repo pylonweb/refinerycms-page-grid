@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 module Refinery
-  module PageGrids
+  module PageGrid
     describe PageGrid do
       describe "validations" do
         subject do

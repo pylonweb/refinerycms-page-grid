@@ -2,9 +2,9 @@ en:
   refinery:
     plugins:
       page_grid:
-        title: Page Grids
+        title: Page Grid
   activerecord:
     attributes:
-      'refinery/page_grids/page_grid':
+      'refinery/page_grid/page_grid':
         margin: Margin
         width: Width

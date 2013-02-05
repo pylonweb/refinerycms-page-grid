@@ -1,10 +1,11 @@
 require 'refinerycms-core'
 
 module Refinery
-  autoload :PageGridsGenerator, 'generators/refinery/page_grids_generator'
+  autoload :PageGridGenerator, 'generators/refinery/page_grid_generator'
 
-  module PageGrids
-    require 'refinery/page_grids/engine'
+  module PageGrid
+    require 'refinery/page_grid/engine'
+    require 'refinery/page_grid/configuration'
 
     class << self
       attr_writer :root

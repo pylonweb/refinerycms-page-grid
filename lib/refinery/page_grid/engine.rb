@@ -4,23 +4,20 @@ module Refinery
       include Refinery::Engine
       isolate_namespace Refinery::PageGrid
 
-      engine_name :refinery_page_grids
+      engine_name :refinery_page_grid
 
       initializer "register refinerycms_page_grid plugin" do
         Refinery::Plugin.register do |plugin|
           plugin.name = "page-grid"
-          plugin.url = proc { Refinery::Core::Engine.routes.url_helpers.page_grids_admin_page_grids_path }
-          plugin.pathname = root
-          plugin.activity = {
-            :class_name => :'refinery/page_grids/page_grid'
-          }
-          plugin.in_menu = false
+          plugin.hide_from_menu = true
           
         end
       end
 
       config.after_initialize do
         Refinery.register_extension(Refinery::PageGrid)
+        Refinery::Core.config.register_javascript 'page-grid'
+        Refinery::Core.config.register_stylesheet 'page-grid'
       end
     end
   end
