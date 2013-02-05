@@ -3,6 +3,11 @@ en:
     plugins:
       page_grid:
         title: Page Grid
+    admin:
+      page_grid:
+        grid_position: Gitter position
+        margin: Margen
+        width: Bredde
   activerecord:
     attributes:
       'refinery/page_grid/page_grid':

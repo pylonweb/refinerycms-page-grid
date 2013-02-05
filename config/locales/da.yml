@@ -2,9 +2,14 @@ da:
   refinery:
     plugins:
       page_grid:
-        title: Side Net
+        title: Sidegitter
+    admin:
+      page_grid:
+        grid_position: Gitterposition
+        margin: Margen
+        width: Bredde
   activerecord:
     attributes:
       'refinery/page_grid/page_grid':
-        margin: Marge
+        margin: Margen
         width: Bredde
