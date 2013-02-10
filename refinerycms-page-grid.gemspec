@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
   s.platform          = Gem::Platform::RUBY
   s.name              = 'refinerycms-page-grid'
-  s.version           = '1.0'
+  s.version           = '1.1'
   s.description       = 'Ruby on Rails Page Grid extension for Refinery CMS'
   s.date              = '2013-02-05'
   s.summary           = 'Page Grid extension for Refinery CMS'
