@@ -1,4 +1,5 @@
 require 'refinerycms-core'
+# Dir["/../app/decorators/**/*.rb"].each {|file| require file }
 
 module Refinery
   autoload :PageGridGenerator, 'generators/refinery/page_grid/page_grid_generator'

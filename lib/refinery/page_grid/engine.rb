@@ -15,9 +15,12 @@ module Refinery
       end
 
       config.after_initialize do
+
         Refinery.register_extension(Refinery::PageGrid)
         Refinery::Core.config.register_javascript 'page-grid'
         Refinery::Core.config.register_stylesheet 'page-grid'
+
+        Refinery::PagePart.send :attr_accessible, :margin, :width
       end
     end
   end

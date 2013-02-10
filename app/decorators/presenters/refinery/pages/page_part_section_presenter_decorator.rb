@@ -1,4 +1,5 @@
 # Open the Refinery::PagePart model for manipulation
+
 Refinery::Pages::PagePartSectionPresenter.class_eval do
 
   def initialize(page_part)
